@@ -4,9 +4,9 @@
 
 var React = require("react");
 var PropTypes = React.PropTypes;
-var PureRenderMixin = React.addons.PureRenderMixin;
-var update = React.addons.update;
-var cx = React.addons.classSet;
+var PureRenderMixin = require("react-addons-pure-render-mixin");
+var update = require("react-addons-update");
+var cx = require("classnames");
 var clone = require("lodash/lang/clone");
 var map = require("lodash/collection/map");
 var keys = require("lodash/object/keys");
