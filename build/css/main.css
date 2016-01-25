@@ -1502,7 +1502,7 @@ svg.renderer-svg tspan {
   line-height: 1em;
 }
 .d4 {
-  font-size: 20px;
+  font-size: 14px;
 }
 .d4 .axis .tick {
   font-family: 'Avenir Next Cyr W00 Light', Arial, Helvetica, sans-serif;
@@ -1581,15 +1581,27 @@ svg.renderer-svg tspan {
 }
 .svg-text {
   font-family: 'Avenir Next Cyr W00 Light', Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 14px;
+}
+.svg-text tspan.em {
+  font-style: italic;
+}
+.svg-text tspan.strong {
+  font-family: "Avenir Next Cyr W00 Medium", Arial, sans-serif;
+}
+.svg-text tspan.strong .em,
+.svg-text tspan.em .strong {
+  font-family: "Avenir Next Cyr W00 Medium", Arial, sans-serif;
+  font-style: italic;
 }
 .svg-text.svg-text-credit {
-  font-size: 12px;
+  font-size: 14px;
   fill: #ccc;
   text-anchor: start;
 }
 .svg-text.svg-text-source {
-  font-size: 12px;
+  font-size: 8.4px;
+  text-transform: uppercase;
   fill: #ccc;
 }
 .svg-text.svg-text-source.left {
@@ -1600,8 +1612,10 @@ svg.renderer-svg tspan {
 }
 .svg-text.svg-text-title {
   fill: #666;
-  font-family: 'Avenir Next Cyr W00 Regular', Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: "Avenir Next Cyr W00 Medium", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 24px !important;
 }
 .svg-source-pipe {
   stroke: #ccc;
@@ -1609,9 +1623,10 @@ svg.renderer-svg tspan {
   stroke-width: 0.8px;
 }
 .svg-label-text {
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Avenir Next Cyr W00 Light', Arial, Helvetica, sans-serif;
   cursor: move;
+  text-transform: uppercase;
 }
 .crosshair line {
   stroke-width: 1;
@@ -1622,26 +1637,27 @@ svg.renderer-svg tspan {
   visibility: hidden;
 }
 .medium .em-size {
-  font-size: 20px;
+  font-size: 14px;
 }
 .medium .d4 {
-  font-size: 20px;
+  font-size: 14px;
 }
 .medium .d4 .margins .line path,
 .medium .d4 .margins .other-line path {
-  stroke-width: 3px;
+  stroke-width: 1.5px;
 }
 .medium .svg-text {
-  font-size: 20px;
+  font-size: 14px;
 }
 .medium .svg-text.svg-text-credit {
-  font-size: 12px;
+  font-size: 14px;
 }
 .medium .svg-text.svg-text-source {
-  font-size: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .medium .svg-text.svg-text-title {
-  font-size: 20px;
+  font-size: 14px;
 }
 .small .em-size {
   font-size: 14px;
@@ -1657,14 +1673,15 @@ svg.renderer-svg tspan {
   font-size: 14px;
 }
 .small .svg-text.svg-text-credit {
-  font-size: 10px;
+  font-size: 7px;
 }
 .small .svg-text.svg-text-source {
-  font-size: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 .small .svg-text.svg-text-pipe text {
   dominant-baseline: central;
-  font-size: 12px;
+  font-size: 8.4px;
 }
 .small .svg-text.svg-text-title {
   font-size: 14px;
@@ -1673,29 +1690,29 @@ svg.renderer-svg tspan {
   font-size: 14px;
 }
 .large .em-size {
-  font-size: 20px;
+  font-size: 14px;
 }
 .large .d4 {
-  font-size: 20px;
+  font-size: 14px;
 }
 .large .d4 .margins .line path,
 .large .d4 .margins .other-line path {
   stroke-width: 4px;
 }
 .large .svg-text {
-  font-size: 20px;
+  font-size: 14px;
 }
 .large .svg-text.svg-text-credit {
-  font-size: 12px;
+  font-size: 8.4px;
 }
 .large .svg-text.svg-text-source {
-  font-size: 12px;
+  font-size: 8.4px;
 }
 .large .svg-text.svg-text-title {
-  font-size: 20px;
+  font-size: 14px;
 }
 .large .svg-label-text {
-  font-size: 20px;
+  font-size: 14px;
 }
 .cb-credit-logo {
   fill: #ccc;

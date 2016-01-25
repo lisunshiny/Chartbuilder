@@ -1,4 +1,4 @@
-$em_size = 20px
+$em_size = 14px
 $em_size_small = 14px
 $em_size_large = 36px
 
@@ -110,24 +110,25 @@ svg
 .svg-text
   font-family $font-sans-light
   font-size $em_size
-  
+
   tspan
     &.em
       font-style italic
-      
+
     &.strong
       font-family $font-sans-bold
-      
+
     &.strong .em, &.em .strong
       font-family $font-sans-bold
       font-style italic
 
   &.svg-text-credit
-    font-size $em_size*0.6
+    font-size $em_size
     fill $color-chart-meta
     text-anchor start
   &.svg-text-source
     font-size $em_size*0.6
+    text-transform uppercase
     fill $color-chart-meta
     //text
       //dominant-baseline central
@@ -137,8 +138,10 @@ svg
       text-anchor end
   &.svg-text-title
     fill $color-body-text
-    font-family $font-sans
+    font-family $font-sans-bold
     font-size $em_size
+    text-transform uppercase
+    font-size 24px !important
 
 .svg-source-pipe
 	stroke $color-chart-meta
@@ -149,6 +152,7 @@ svg
   font-size $em_size
   font-family $font-sans-light
   cursor move
+  text-transform uppercase
 
 .crosshair
   line
@@ -168,14 +172,16 @@ svg
     .margins
       .line, .other-line
         path
-          stroke-width 3px
+          stroke-width 1.5px
 
   .svg-text
     font-size $em_size
     &.svg-text-credit
-      font-size $em_size*0.6
+      font-size $em_size
     &.svg-text-source
-      font-size $em_size*0.6
+      font-size $em_size
+      text-transform uppercase
+
     &.svg-text-title
       font-size $em_size
 
@@ -195,7 +201,8 @@ svg
     &.svg-text-credit
       font-size $em_size*0.5
     &.svg-text-source
-      font-size $em_size*0.5
+      text-transform uppercase
+      font-size $em_size
     &.svg-text-pipe
       text
         dominant-baseline central

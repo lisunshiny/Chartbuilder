@@ -112,7 +112,7 @@ var defaultProps = {
 		chartType: "chartgrid",
 		title: "",
 		source: "",
-		credit: "Made with Chartbuilder",
+		credit: "© APPBOY | ALL RIGHTS RESERVED",
 		size: "auto"
 	}
 };

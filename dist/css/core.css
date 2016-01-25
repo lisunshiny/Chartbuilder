@@ -816,6 +816,7 @@ svg.renderer-svg tspan {
 }
 .svg-label-text {
   font-size: 20px;
+  text-transform: uppercase;
   font-family: 'Avenir Next Cyr W00 Light', Arial, Helvetica, sans-serif;
   cursor: move;
 }

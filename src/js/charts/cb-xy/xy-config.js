@@ -30,7 +30,7 @@ var ChartConfig = require("../ChartConfig");
 * @property {object} padding - Distances btwn inner chart elements and container
 */
 var display = {
-	labelRectSize: "0.6em",
+	labelRectSize: "0.4em",
 	labelXMargin: "0.6em",
 	labelTextMargin: "0.3em",
 	labelRowHeight: "1.2em",
@@ -129,7 +129,7 @@ var defaultProps = {
 		chartType: 'xy',
 		title: "",
 		source: "",
-		credit: "Made with Chartbuilder",
+		credit: "© APPBOY | ALL RIGHTS RESERVED",
 		size: "auto"
 	}
 };

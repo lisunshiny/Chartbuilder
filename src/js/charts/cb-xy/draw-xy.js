@@ -265,9 +265,9 @@ var using = {
 			.r(function() {
 				// TODO: remove this hardcoding
 				if (this.width > 600) {
-					return 3;
-				} else {
 					return 2;
+				} else {
+					return 1;
 				}
 			});
 
